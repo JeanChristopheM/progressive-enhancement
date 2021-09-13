@@ -6,6 +6,7 @@ body {
     background-size: 200px 200px;
     background-repeat: no-repeat;
     background-position: bottom right;
+    padding-bottom:5rem;
 }
 blockquote {
     max-width:50vw;
@@ -23,7 +24,9 @@ blockquote {
         border-left:3px dashed hsl(200, 50%, 50%);
     }
 img {
-    max-width: 90%;
+    max-width: 80%;
+    float:left;
+    padding: 2rem;
 }
 p {
     font-family: 'Lora', serif;
@@ -58,4 +61,12 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background: #FFF
+}
+aside {
+    position:fixed;
+    bottom:0;
+    right:0;
+    background-color: lightsalmon;
+    padding:1rem;
+    border-top-left-radius: 1rem;
 }
